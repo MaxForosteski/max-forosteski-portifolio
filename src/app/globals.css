@@ -7,10 +7,15 @@
   --foreground: #171717;
 }
 
+
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+  }
+  .usu-bg-nav{
+    background-image: linear-gradient(to right, rgb(8, 8, 8),rgb(8,8,20));
   }
 }
 
