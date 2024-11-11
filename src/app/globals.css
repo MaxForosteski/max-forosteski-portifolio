@@ -6,6 +6,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary-color:#ff7b00;
 }
 
 body {
@@ -15,16 +16,17 @@ body {
 }
 
 .usu-bg-nav{
-  background-image: linear-gradient(to right, rgb(18, 18, 18 ),rgb(255, 123, 0));
+  background-image: linear-gradient(to right, rgb(18, 18, 18 ),var(--primary-color));
 }
 
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --primary-color:#0c0caa;
   }
   .usu-bg-nav{
-    background-image: linear-gradient(to right, rgb(8, 8, 8 ),rgb(8,8,20));
+    background-image: linear-gradient(to right, rgb(8, 8, 8 ),var(--primary-color));
   }
 
 

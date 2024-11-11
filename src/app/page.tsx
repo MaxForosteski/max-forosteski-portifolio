@@ -42,7 +42,9 @@ export default function Home() {
                 </nav>
             </div>
             <div className="container">
-                .
+                <div className="header">
+                    
+                </div>
             </div>
         </div>
     );
