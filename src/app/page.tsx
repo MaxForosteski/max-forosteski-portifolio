@@ -12,11 +12,11 @@ export default function Home() {
                                     <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
                                         <a className="flex items-center space-x-3 rtl:space-x-reverse">
                                             <Image
-                                                src="/LinceY-logo.webp"
+                                                src="/LINCEY-newlogo.png"
                                                 alt="Lincey Logo"
-                                                width={60}
-                                                height={60}
-                                                style={{ borderRadius: "50px" }}
+                                                width={80}
+                                                height={80}
+                                                style={{ borderRadius: "20px" }}
                                             />
                                         </a>
                                     </div>
