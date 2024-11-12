@@ -21,6 +21,26 @@ body {
   background-image: linear-gradient(to right, var(--secondary-color),var(--primary-color));
 }
 
+.usu-nav-center{
+  display: flex;
+  justify-content: space-between;
+}
+
+.usu-triangle{
+  position: relative;
+  z-index: 10;
+  height: 0;
+  width: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 20px solid var(--primary-color);
+}
+
+.usu-list-nav>li{
+  margin-left: 60;
+  margin-right: 60;
+}
+
 /*Config Dark mode*/
 @media (prefers-color-scheme: dark) {
   :root {

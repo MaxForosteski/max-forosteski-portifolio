@@ -4,10 +4,11 @@ export default function Home() {
     return (
         <div className="main">
             <div className="navbar">
-                <nav className="bg-gray-50 usu-bg-nav">
-                    <div className="max-w-screen-xl px-4">
+                <nav className="bg-gray-50 usu-bg-nav w-full">
+                    <div className="max-w-screen-xl px-4 ">
                         <div className="flex items-center">
-                            <ul className="flex flex-row items-center font-medium mt-0 space-x-8 rtl:space-x-reverse text-lg">
+                            <div className="usu-triangle"></div>
+                            <ul className="w-full flex justify-evenly usu-list-nav flex flex-row items-center font-medium mt-0 space-x-8 rtl:space-x-reverse text-lg">
                                 <li>
                                     <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
                                         <a className="flex items-center space-x-3 rtl:space-x-reverse">
