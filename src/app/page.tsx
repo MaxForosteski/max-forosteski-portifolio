@@ -1,4 +1,6 @@
 import Image from "next/image";
+import React from 'react';
+import Script from 'next/script';
 
 export default function Home() {
     return (
@@ -7,7 +9,10 @@ export default function Home() {
                 <nav className="bg-gray-50 usu-bg-nav w-full">
                     <div className="max-w-screen-xl px-4 ">
                         <div className="flex items-center">
-                            <div className="usu-triangle"></div>
+                        <div className="usu-triangle"></div>
+                        <script src="bg-triangle-nav-generator.tsx">
+
+                        </script>
                             <ul className="w-full flex justify-evenly usu-list-nav flex flex-row items-center font-medium mt-0 space-x-8 rtl:space-x-reverse text-lg">
                                 <li>
                                     <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">

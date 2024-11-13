@@ -26,14 +26,21 @@ body {
   justify-content: space-between;
 }
 
+@keyframes triangle-move{
+  from{top:120px;transform: rotate(0deg);}
+  to{top:-40px;transform: rotate(220deg);}
+}
+
 .usu-triangle{
-  position: relative;
+  position: absolute;
+  left:30;
   z-index: 10;
   height: 0;
   width: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-bottom: 20px solid var(--primary-color);
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 40px solid var(--primary-color);
+  animation: triangle-move 10s infinite;
 }
 
 .usu-list-nav>li{
