@@ -48,8 +48,8 @@ export default function Home() {
                 </nav>
             </div>
             <div className="container">
-                <div className="header">
-                    
+                <div className="header absolute flex items-center text-7xl rounded-md">
+                    <h1>Hello, My name is Max</h1>
                 </div>
             </div>
         </div>
