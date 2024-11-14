@@ -49,8 +49,19 @@ export default function Home() {
             </div>
             <div className="container">
                 <div className="header absolute flex items-center text-7xl rounded-md">
-                    <h1>Hello, My name is Max</h1>
+                    <h1>Hello, my name is Max</h1>
                 </div>
+                <div className="header">
+                    Lorem ipsum dolor sit amet consectetur
+                </div>
+                <p>
+                Meu nome é Marcos Max Forosteski da Silva, nascido e criado em Santa Catarina, Brasil. Desde a adolescência, sempre tive um grande interesse pela área de desenvolvimento de software, explorando as diversas possibilidades que a tecnologia oferece.
+
+Esse entusiasmo me levou a cursar um técnico em Tecnologia da Informação, que abriu portas para uma trajetória ainda mais sólida. Atualmente, estou cursando Bacharelado em Sistemas de Informação, ampliando meus conhecimentos e habilidades.
+
+Minha jornada profissional começou como estagiário, evoluindo rapidamente para a posição de desenvolvedor web, onde atuo há 2 anos. Durante esse período, participei de uma variedade de projetos, desde soluções simples até desafios críticos, sempre buscando a melhor performance e qualidade nos resultados.
+    
+                </p>
             </div>
         </div>
     );
