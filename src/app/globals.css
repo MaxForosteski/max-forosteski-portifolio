@@ -10,6 +10,7 @@
   --secondary-color:#FFB74D;
 }
 
+
 body {
   color: var(--foreground);
   background: var(--background);
