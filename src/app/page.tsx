@@ -115,10 +115,10 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="servicos">
-
+                        <h1 className="text-5xl ml-8 m-4">Serviços</h1>
                     </div>
                     <div className="contatos">
-                        
+                        <h1 className="text-5xl ml-8 m-4">Contatos</h1>
                     </div>
                 </div>
             </main>
