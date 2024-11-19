@@ -35,10 +35,10 @@ export default function Home() {
                                         <a className="text-gray-900 dark:text-white hover:underline">Sobre mim</a>
                                     </li>
                                     <li>
-                                        <a className="text-gray-900 dark:text-white hover:underline">Serviços</a>
+                                        <a className="text-gray-900 dark:text-white hover:underline">Projetos</a>
                                     </li>
                                     <li>
-                                        <a className="text-gray-900 dark:text-white hover:underline">Projetos</a>
+                                        <a className="text-gray-900 dark:text-white hover:underline">Serviços</a>
                                     </li>
                                     <li>
                                         <a className="text-gray-900 dark:text-white hover:underline">Contatos</a>
@@ -104,6 +104,21 @@ export default function Home() {
                             </p>
                         </div>
 
+                    </div>
+                    <div className="projetos">
+                        <h1 className="text-5xl ml-8 m-4">Projetos</h1>
+                        <div className="projetos-cards m-12">
+                            <a href="#" className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Paper Management System (PMS)</h5>
+                                <p className="font-normal text-justify text-gray-700 dark:text-gray-400">Sistema de gerenciamento de produção de papel feito para a empresa Adami S/A junto a uma equipe de 4 desenvolvedores, 1 tech lead, 1 product owner e 1 project leader</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div className="servicos">
+
+                    </div>
+                    <div className="contatos">
+                        
                     </div>
                 </div>
             </main>
