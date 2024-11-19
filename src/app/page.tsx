@@ -59,16 +59,16 @@ export default function Home() {
                     <div className="header">
                         Lorem ipsum dolor sit amet consectetur
                     </div>
-                    <div className="sobremim mt-8">
+                    <div className="sobremim mt-8 text-justify">
                         <h1 className="text-5xl ml-8 m-4">Sobre mim</h1>
                         <div className="perfil flex items-center w-100">
-                            <div className="img-perfil w-3/12 relative ml-12 m-9">
+                            <div className="img-perfil w-3/12 relative m-12">
                                 <Image
                                     src="/profile.png"
                                     alt="Profile_Pic"
                                     width={280}
                                     height={280}
-                                    style={{ objectFit: "cover" }}
+
                                 />
                             </div>
                             <div className="w-1/12">
@@ -77,13 +77,33 @@ export default function Home() {
                                 Meu nome é Marcos Max Forosteski da Silva, nascido e criado em Santa Catarina, Brasil. Desde a adolescência, sempre tive um grande interesse pela área de desenvolvimento de software.
                             </p>
                         </div>
+                        <div className="estudos w-100 flex items-center m-12">
+                            <p className="w-9/12">
+                                Esse entusiasmo me levou a cursar um técnico em Tecnologia da Informação, que abriu portas para uma trajetória ainda mais sólida. Atualmente, estou cursando Bacharelado em Sistemas de Informação, ampliando meus conhecimentos e habilidades.
+                            </p>
+                            <div className="img-estudos w-3/12">
+                                <Image
+                                    src="/tecnologica.png"
+                                    alt="avanço nos estudos"
+                                    width={280}
+                                    height={280}
+                                />
+                            </div>
+                        </div>
+                        <div className="profissional flex items-center w-100 m-12">
+                            <div className="profissional-img w-3/12">
+                                <Image
+                                    src="/machine-learning.png"
+                                    alt="Evolução da mente"
+                                    width={280}
+                                    height={280}
+                                />
+                            </div>
+                            <p className="w-9/12">
+                                Minha jornada profissional começou como estagiário, evoluindo rapidamente para a posição de desenvolvedor web, onde atuo há 2 anos. Durante esse período, participei de uma variedade de projetos, desde soluções simples até desafios críticos, sempre buscando a melhor performance e qualidade nos resultados.
+                            </p>
+                        </div>
 
-                        <p>
-                            Esse entusiasmo me levou a cursar um técnico em Tecnologia da Informação, que abriu portas para uma trajetória ainda mais sólida. Atualmente, estou cursando Bacharelado em Sistemas de Informação, ampliando meus conhecimentos e habilidades.
-                        </p>
-                        <p>
-                            Minha jornada profissional começou como estagiário, evoluindo rapidamente para a posição de desenvolvedor web, onde atuo há 2 anos. Durante esse período, participei de uma variedade de projetos, desde soluções simples até desafios críticos, sempre buscando a melhor performance e qualidade nos resultados.
-                        </p>
                     </div>
                 </div>
             </main>
