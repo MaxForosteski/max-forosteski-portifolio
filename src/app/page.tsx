@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from 'react';
 import Script from 'next/script';
+import "./bg-triangle-nav-generator.js"
 
 export default function Home() {
     return (
@@ -11,8 +12,8 @@ export default function Home() {
                         <div className="max-w-screen-xl px-4 ">
                             <div className="flex items-center">
                                 <div className="usu-triangle"></div>
-                                <script src="bg-triangle-nav-generator.tsx">
-
+                                <script src="/bg-triangle-nav-generator.js">
+                                    
                                 </script>
                                 <ul className="w-full flex justify-evenly usu-list-nav flex flex-row items-center font-medium mt-0 space-x-8 rtl:space-x-reverse text-lg">
                                     <li>
@@ -116,9 +117,21 @@ export default function Home() {
                     </div>
                     <div className="servicos">
                         <h1 className="text-5xl ml-8 m-4">Serviços</h1>
+
                     </div>
                     <div className="contatos">
                         <h1 className="text-5xl ml-8 m-4">Contatos</h1>
+                        <ul className="ml-16 m-8 flex">
+                            <li className="flex flex-row items-center ">
+                                <Image
+                                    src="/gmail.png"
+                                    alt="gmail"
+                                    width={40}
+                                    height={40}
+                                />
+                                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=maxforosteski12@gmail.com" target="_blank" className="ml-5 text-2xl">maxforosteski12@gmail.com</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </main>
