@@ -12,9 +12,14 @@ export default function Home() {
                         <div className="max-w-screen-xl px-4 ">
                             <div className="flex items-center">
                                 <div className="usu-triangle"></div>
-                                <script src="/bg-triangle-nav-generator.js">
-                                    
-                                </script>
+                                <Script
+                                    id="animation-script"
+                                    strategy="afterInteractive"
+                                >
+                                    {`
+                                        console.log("teste");
+                                    `}
+                                </Script>
                                 <ul className="w-full flex justify-evenly usu-list-nav flex flex-row items-center font-medium mt-0 space-x-8 rtl:space-x-reverse text-lg">
                                     <li>
                                         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
@@ -117,11 +122,38 @@ export default function Home() {
                     </div>
                     <div className="servicos">
                         <h1 className="text-5xl ml-8 m-4">Serviços</h1>
-
+                        <ul className="ml-16 m-8 text-2xl">
+                            <li className="flex items-center m-3">
+                                <Image
+                                    src="/endereco-do-website.png"
+                                    alt="Desenvolvimento de paginas web"
+                                    width={40}
+                                    height={40}
+                                />
+                                Desenvolvimento de Websites personalizados
+                            </li>
+                            <p className="text-base ml-16">Criação de sites responsivos e otimizados para todos os dispositivos.
+                                Design exclusivo para atender às necessidades do seu negócio.
+                                Integração com ferramentas modernas, como chatbots, formulários e APIs.</p>
+                            <li className="flex items-center m-3">
+                                <Image
+                                    src="/aplicacao-de-software.png"
+                                    alt="Desenvolvimento de Software Sistemas Web"
+                                    width={40}
+                                    height={40}
+                                />
+                                Desenvolvimento de Aplicações Web
+                            </li>
+                            <p className="text-base ml-16">
+                                Construção de plataformas robustas para gestão empresarial, e-commerce, ou comunidades online.
+                                Soluções escaláveis, seguras e integradas a bancos de dados eficientes.
+                                Suporte a tecnologias modernas como React, Angular, Node.js, e mais.
+                            </p>
+                        </ul>
                     </div>
                     <div className="contatos">
                         <h1 className="text-5xl ml-8 m-4">Contatos</h1>
-                        <ul className="ml-16 m-8 flex">
+                        <ul className="ml-16 m-8 flex text-2xl">
                             <li className="flex flex-row items-center ">
                                 <Image
                                     src="/gmail.png"
@@ -129,7 +161,7 @@ export default function Home() {
                                     width={40}
                                     height={40}
                                 />
-                                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=maxforosteski12@gmail.com" target="_blank" className="ml-5 text-2xl">maxforosteski12@gmail.com</a>
+                                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=max.forosteski.dev@gmail.com" target="_blank" className="ml-5">max.forosteski.dev@gmail.com</a>
                             </li>
                         </ul>
                     </div>
