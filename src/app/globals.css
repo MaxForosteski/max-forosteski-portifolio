@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 /*General*/
+.z-10{
+  z-index: 10;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -20,7 +24,7 @@ body {
   font-style: normal;
 }
 
-/*Nav*/
+/*Component Nav*/
 .usu-bg-nav{
   background-image: linear-gradient(to right, var(--secondary-color),var(--primary-color));
 }
@@ -43,7 +47,8 @@ body {
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
   border-bottom: 40px solid var(--primary-color);
-  animation: triangle-move 10s infinite;
+  animation: triangle-move 10s;
+  z-index: 0;
 }
 
 .usu-list-nav>li{

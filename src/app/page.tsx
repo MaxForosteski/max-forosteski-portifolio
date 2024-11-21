@@ -11,7 +11,7 @@ export default function Home() {
             </header>
 
 
-            <main>
+            <main className="w-100">
                 <div className="container">
                     <div className="header absolute flex items-center text-7xl rounded-md">
                         <h1>Hello, my name is Max</h1>
