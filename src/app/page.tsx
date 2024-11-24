@@ -14,7 +14,9 @@ export default function Home() {
             <main className="w-100">
                 <div className="container">
                     <div className="header absolute flex items-center text-7xl rounded-md">
-                        <h1>Hello, my name is Max</h1>
+                        <div className="console-line">
+                        <p> &gt; </p><h1 className="z-0 font-semibold">Hello, my name is Max</h1>
+                        </div>
                     </div>
                     <div className="header">
                         Lorem ipsum dolor sit amet consectetur
@@ -28,7 +30,6 @@ export default function Home() {
                                     alt="Profile_Pic"
                                     width={280}
                                     height={280}
-
                                 />
                             </div>
                             <div className="w-1/12">

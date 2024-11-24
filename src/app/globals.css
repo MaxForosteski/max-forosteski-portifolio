@@ -3,10 +3,6 @@
 @tailwind utilities;
 
 /*General*/
-.z-10{
-  z-index: 10;
-}
-
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -14,6 +10,15 @@
   --secondary-color:#FFB74D;
 }
 
+html::-webkit-scrollbar{
+  width: 0.1vw;
+  background-color: var(--background);
+}
+
+html::-webkit-scrollbar-thumb{
+  background-color: var(--foreground);
+  border-radius: 20px;
+}
 
 body {
   color: var(--foreground);
@@ -24,6 +29,14 @@ body {
   font-style: normal;
 }
 
+.z-0{
+  z-index: 0;
+}
+
+.z-10{
+  z-index: 10;
+}
+
 /*Component Nav*/
 .usu-bg-nav{
   background-image: linear-gradient(to right, var(--secondary-color),var(--primary-color));
@@ -32,11 +45,6 @@ body {
 .usu-nav-center{
   display: flex;
   justify-content: space-between;
-}
-
-@keyframes triangle-move{
-  from{top:120px;transform: rotate(0deg);}
-  to{top:-40px;transform: rotate(220deg);}
 }
 
 .usu-triangle{
@@ -55,14 +63,17 @@ body {
   margin-left: 60;
   margin-right: 60;
 }
-/*Header da pagina*/
+
 .header{
   height:65vh;
   width: 100vw;
-  background-image:linear-gradient(75deg,var(--background-light),var(--background-lighter));
+  background-image:linear-gradient(75deg,var(--console-color-dark),var(--console-color-light));
   z-index:10;
   padding-left:5%;
 }
+
+/*Home*/
+
 
 /*Config Dark mode*/
 @media (prefers-color-scheme: dark) {
@@ -70,12 +81,20 @@ body {
     --background: #0a0a0a;
     --background-light: #1a1a1a;
     --background-lighter: #3a3a3a;
+    --console-color-dark: rgb(12, 12, 12);
+    --console-color-light: rgb(18,18,18);
     --foreground: #ededed;
     --primary-color:#0D47A1;
     --secondary-color:#9C27B0;
-
+    --green:rgb(8, 235, 0);
   }
 
+}
+
+/*Animações*/
+@keyframes triangle-move{
+  from{top:120px;transform: rotate(0deg);}
+  to{top:-40px;transform: rotate(220deg);}
 }
 
 
