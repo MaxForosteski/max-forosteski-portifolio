@@ -14,8 +14,8 @@ export default function Home() {
             <main className="w-100">
                 <div className="container">
                     <div className="header absolute flex items-center text-7xl rounded-md">
-                        <div className="console-line">
-                        <p> &gt; </p><h1 className="z-0 font-semibold">Hello, my name is Max</h1>
+                        <div className="console-line flex">
+                        <p> &gt; </p><h1 className="z-0 font-semibold">Hello, my name is Max</h1><div className="cursor"></div>
                         </div>
                     </div>
                     <div className="header">

@@ -73,13 +73,18 @@ body {
 }
 
 /*Home*/
-
+.cursor{
+  background-color: #ffffff;
+  width: 30px;
+  height: 65px;
+  animation: cursor 1s infinite;
+}
 
 /*Config Dark mode*/
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --background-light: #1a1a1a;
+    --background: #202020;
+    --background-light: #292929;
     --background-lighter: #3a3a3a;
     --console-color-dark: rgb(12, 12, 12);
     --console-color-light: rgb(18,18,18);
@@ -97,4 +102,8 @@ body {
   to{top:-40px;transform: rotate(220deg);}
 }
 
+@keyframes cursor{
+  from{opacity: 1;}
+  to{opacity: 0;}
+}
 
