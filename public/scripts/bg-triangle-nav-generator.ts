@@ -1,7 +1,5 @@
 "use client"
 
-import { text } from "stream/consumers";
-
 export default function CreateTriangles() {
     console.log("teste")
     setInterval(() => {
@@ -25,7 +23,6 @@ export default function CreateTriangles() {
 
 
         triangle.addEventListener('animationend', () => {
-            console.log('Animação finalizada. Removendo elemento.');
             triangle.remove(); 
         });
     }, 1800);

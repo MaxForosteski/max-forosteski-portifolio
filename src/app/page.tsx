@@ -1,26 +1,19 @@
 import Image from "next/image";
 import React from 'react';
 import Navbar from "../../public/components/navbar";
+import Console from "../../public/components/console";
 
 
 export default function Home() {
     return (
         <div className="main">
             <header>
-                <Navbar />
+                <Navbar/>
             </header>
-
-
+            
             <main className="w-100">
                 <div className="container">
-                    <div className="header absolute flex items-center text-7xl rounded-md">
-                        <div className="console-line flex">
-                        <p> &gt; </p><h1 className="z-0 font-semibold">Hello, my name is Max</h1><div className="cursor"></div>
-                        </div>
-                    </div>
-                    <div className="header">
-                        Lorem ipsum dolor sit amet consectetur
-                    </div>
+                    <Console/>
                     <div className="sobremim mt-8 text-justify">
                         <h1 className="text-5xl ml-8 m-4">Sobre mim</h1>
                         <div className="perfil flex items-center w-100">
