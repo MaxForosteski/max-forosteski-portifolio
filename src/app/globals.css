@@ -80,6 +80,45 @@ body {
   animation: cursor 1s infinite;
 }
 
+.bg-console{
+  position: absolute;
+  font-size: 50%;
+  width: 100%;
+  filter: blur(6px);
+}
+
+.bg-console:hover{
+  box-shadow: 0 0 20px rgba(0, 150, 255, 0.8);
+  border-color: rgba(0, 150, 255, 0.8);
+}
+
+.tab-1{
+  position: absolute;
+  left: 10%;
+}
+
+.tab-2{
+  position: absolute;
+  left: 20%;
+}
+
+.reserved-word{
+  color:#0D47A1;
+}
+
+.object-name{
+  color:rgb(0, 197, 59)
+}
+
+.function-name{
+  color: rgb(218, 0, 199);
+}
+
+.string-color{
+  color: rgb(250, 171, 0);
+}
+
+
 /*Config Dark mode*/
 @media (prefers-color-scheme: dark) {
   :root {
