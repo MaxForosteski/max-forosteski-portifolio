@@ -11,25 +11,6 @@ export default function Console() {
             "Speaks in Portuguese, English and Leetcode",
             "System.out.println('A mug of happiness');"
         ])
-        document.addEventListener('DOMContentLoaded', () => {
-            const cursor = document.querySelector('.cursor') as HTMLElement;
-            const div = document.querySelector('.div') as HTMLElement;
-
-            // Atualiza a posição do cursor
-            document.addEventListener('mousemove', (e) => {
-                cursor.style.left = `${e.pageX}px`;
-                cursor.style.top = `${e.pageY}px`;
-            });
-
-            // Adiciona o efeito de brilho ao passar por cima da div
-            div.addEventListener('mouseenter', () => {
-                cursor.classList.add('hover-effect');
-            });
-
-            div.addEventListener('mouseleave', () => {
-                cursor.classList.remove('hover-effect');
-            });
-        });
 
     });
     return (
@@ -55,8 +36,7 @@ export default function Console() {
                 </div>
             </div>
 
-            <div className="div">Passe o mouse aqui</div>
-            <div className="cursor"></div>
+            
 
         </div>
 
