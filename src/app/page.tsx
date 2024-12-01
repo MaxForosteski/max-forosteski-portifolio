@@ -2,18 +2,19 @@ import Image from "next/image";
 import React from 'react';
 import Navbar from "../../public/components/navbar";
 import Console from "../../public/components/console";
+import Footer from "../../public/components/footer";
 
 
 export default function Home() {
     return (
         <div className="main">
             <header>
-                <Navbar/>
+                <Navbar />
             </header>
-            
+
             <main className="w-100">
                 <div className="container">
-                    <Console/>
+                    <Console />
                     <div className="sobremim mt-8 text-justify">
                         <h1 className="text-5xl ml-8 m-4">Sobre mim</h1>
                         <div className="perfil flex items-center w-100">
@@ -115,11 +116,7 @@ export default function Home() {
                     </div>
                 </div>
             </main>
-
-
-            <footer>
-                <a href="https://www.flaticon.com/free-icons/user" title="user icons">User icons created by Freepik - Flaticon</a>
-            </footer>
+            <Footer />
         </div>
 
     );

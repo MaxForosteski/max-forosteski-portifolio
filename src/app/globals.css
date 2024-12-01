@@ -128,7 +128,10 @@ body {
   color: rgb(250, 171, 0);
 }
 
-
+footer{
+  background: black;
+  padding: 2%;
+}
 /*Config Dark mode*/
 @media (prefers-color-scheme: dark) {
   :root {
