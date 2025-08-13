@@ -38,9 +38,9 @@ const ServiceItem: React.FC<ServiceItemProps> = ({ service }) => (
                 height={40}
                 className="mr-3"
             />
-            {service.title}
+            <b className="text-3xl">{service.title}</b>
         </li>
-        <p className="text-base ml-16 mb-4">{service.description}</p>
+        <p className="text-2xl ml-16 mb-4">{service.description}</p>
     </>
 );
 

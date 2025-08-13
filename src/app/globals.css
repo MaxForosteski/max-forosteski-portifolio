@@ -78,13 +78,16 @@ body {
 }
 
 .header{
-  height:65vh;
+  height:85vh;
   width: 100vw;
   background-image:linear-gradient(75deg,var(--console-color-dark),var(--console-color-light));
   z-index:10;
   padding-left:5%;
 }
 
+#navbar{
+  height: 10vh;
+}
 
 
 /*Home*/

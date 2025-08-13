@@ -17,30 +17,24 @@ export default function Navbar() {
                             <li>
                                 <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl m-4">
                                     <a className="z-10 flex items-center space-x-3 rtl:space-x-reverse">
-                                        <Image
-                                            src="/profile.png"
-                                            alt="Lincey Logo"
-                                            width={100}
-                                            height={100}
-                                            style={{ borderRadius: "20px", zIndex: "10" }}
-                                        />
+                                        
                                     </a>
                                 </div>
                             </li>
                             <li className="navoption">
-                                <a className="text-gray-900 dark:text-white hover:underline z-10 relative" aria-current="page">Home</a>
+                                <a className="text-gray-900 dark:text-white hover:underline z-10 relative" aria-current="page"></a>
                             </li>
                             <li className="navoption">
-                                <a className="z-10 text-gray-900 dark:text-white hover:underline relative">Sobre mim</a>
+                                <a className="z-10 text-gray-900 dark:text-white hover:underline relative"></a>
                             </li>
                             <li className="navoption">
-                                <a className="z-10 text-gray-900 dark:text-white hover:underline relative">Projetos</a>
+                                <a className="z-10 text-gray-900 dark:text-white hover:underline relative"></a>
                             </li>
                             <li className="navoption">
-                                <a className="z-10 text-gray-900 dark:text-white hover:underline relative">Serviços</a>
+                                <a className="z-10 text-gray-900 dark:text-white hover:underline relative"></a>
                             </li>
                             <li className="navoption">
-                                <a className="z-10 text-gray-900 dark:text-white hover:underline relative">Contatos</a>
+                                <a className="z-10 text-gray-900 dark:text-white hover:underline relative"></a>
                             </li>
                         </ul>
                     </div>

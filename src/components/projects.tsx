@@ -48,8 +48,8 @@ interface ProjectItemProps {
 
 const ProjectItem: React.FC<ProjectItemProps> = ({ project }) => (
     <div className="mb-8 ml-8">
-        <h2 className="text-2xl m-4">{project.title}</h2>
-        <div className="ml-16 space-y-4">
+        <h2 className="text-3xl m-4">{project.title}</h2>
+        <div className="ml-16 space-y-4 text-2xl">
             <p><b>Tecnologias:</b> {project.technologies}</p>
             <p><b>Descrição:</b> {project.description}</p>
             <p><b>Resultados:</b> {project.results}</p>
