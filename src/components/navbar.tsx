@@ -1,6 +1,5 @@
 "use client"
 
-import Image from "next/image"
 import { useEffect } from "react";
 import CreateTriangles from "../../public/scripts/bg-triangle-nav-generator";
 export default function Navbar() {
