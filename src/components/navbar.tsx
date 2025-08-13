@@ -2,7 +2,7 @@
 
 import Image from "next/image"
 import { useEffect } from "react";
-import CreateTriangles from "../scripts/bg-triangle-nav-generator";
+import CreateTriangles from "../../public/scripts/bg-triangle-nav-generator";
 export default function Navbar() {
     useEffect(() => {
         CreateTriangles();
@@ -13,12 +13,12 @@ export default function Navbar() {
                 <div className="max-w-screen-xl px-4 ">
                     <div className="flex items-center">
 
-                        <ul className="w-full flex justify-evenly usu-list-nav flex flex-row items-center font-medium mt-0 space-x-8 rtl:space-x-reverse text-lg m-5">
+                        <ul className="w-full flex justify-evenly usu-list-nav flex flex-row items-center font-medium mt-0 space-x-8 rtl:space-x-reverse text-lg">
                             <li>
                                 <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl m-4">
                                     <a className="z-10 flex items-center space-x-3 rtl:space-x-reverse">
                                         <Image
-                                            src="/LINCEY-newlogo.png"
+                                            src="/profile.png"
                                             alt="Lincey Logo"
                                             width={100}
                                             height={100}
